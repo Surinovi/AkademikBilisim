@@ -7,13 +7,18 @@ import android.view.View;
 import android.widget.Button;
 
 public class GirisActivity extends AppCompatActivity {
-  Button giris;
+
+
+
+    Button giris;
+    Intent intent;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_giris);
 
-
+        intent = getIntent();
 
         giris=findViewById(R.id.loginButtonSendId);
         giris.setOnClickListener(new View.OnClickListener() {
