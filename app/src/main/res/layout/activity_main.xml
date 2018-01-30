@@ -6,11 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.ab2018.akademikbilisim.MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#fff"
-        android:src="@drawable/ab2018splash"
-        android:padding="25dp"/>
+
 
 </android.support.constraint.ConstraintLayout>
