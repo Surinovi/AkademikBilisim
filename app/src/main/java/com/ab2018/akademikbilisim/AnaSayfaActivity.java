@@ -28,6 +28,7 @@ public class AnaSayfaActivity extends AppCompatActivity {
                 intent = new Intent(AnaSayfaActivity.this, GirisActivity.class);
                 startActivity(intent);
                 finish();
+
             }
         });
     }
