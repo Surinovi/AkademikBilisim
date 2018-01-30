@@ -9,5 +9,6 @@ public class KursDetayActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kurs_detay);
+        //profil ekranıı
     }
 }
