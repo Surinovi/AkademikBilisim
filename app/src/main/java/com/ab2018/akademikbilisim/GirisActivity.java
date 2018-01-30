@@ -14,7 +14,8 @@ public class GirisActivity extends AppCompatActivity {
         setContentView(R.layout.activity_giris);
 
 
-        giris=findViewById(R.id.btn_signup);
+
+        giris=findViewById(R.id.loginButtonSendId);
         giris.setOnClickListener(new View.OnClickListener() {
 
             @Override
