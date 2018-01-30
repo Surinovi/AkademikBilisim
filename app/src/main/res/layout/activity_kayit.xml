@@ -64,14 +64,14 @@
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
-            android:id="@+id/signup_input_layout_email"
+            android:id="@+id/signupInputLayoutEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/signup_input_email"
+                android:id="@+id/signupInputEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -80,14 +80,14 @@
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
-            android:id="@+id/signup_input_layout_parola"
+            android:id="@+id/signupInputLayoutPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/signup_input_parola"
+                android:id="@+id/signupInputPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -95,14 +95,14 @@
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
-            android:id="@+id/signup_input_layout_confirmpassword"
+            android:id="@+id/signupInputLayoutConfirmPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/signup_input_confirmpassword"
+                android:id="@+id/signupInputConfirmPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -112,7 +112,7 @@
 
 
         <Button
-            android:id="@+id/btn_signup"
+            android:id="@+id/butonSignup"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
