@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name"></string>
     <string name="hint_password">Password</string>
-    <string name="Cevap1">Cevap1</string>
-    <string name="Cevap2">Cevap2</string>
-    <string name="Cevap3">Cevap3</string>
-    <string name="Cevap4">Cevap4</string>
-    <string name="Soru">Soru Buraya Gelecek</string>
-    <string name="Button">Onayla</string>
+    <string name="btn_sign_up">Giriş</string>
+
+    <string-array name="kursDetayIsım">
+        <item name="spAndroid">Android</item>
+        <item name="spAgYonetimGiris">Ağ Yöneticiliğine Giriş</item>
+        <item name="spBitCoiniAnlamak">Bit Coini Anlamak</item>
+    </string-array>
 </resources>
