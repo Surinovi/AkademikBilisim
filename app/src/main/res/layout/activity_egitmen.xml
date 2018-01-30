@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context="com.ab2018.akademikbilisim.EgitmenActivity">
+
+    <ListView
+        android:id="@+id/listim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/egitmen_item" />
 
 </android.support.constraint.ConstraintLayout>
