@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/anket"
+        android:orderInCategory="2"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Anket Oluştur"
+        />
+    <item
+        android:id="@+id/dersSecimi"
+        android:orderInCategory="2"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Ders Seçimi Yap"
+        />
+    <item
+        android:id="@+id/iletisim"
+        android:orderInCategory="2"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="İletişim"
+        />
+</menu>
