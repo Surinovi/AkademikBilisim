@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ab2018.akademikbilisim.KursDetayActivity">
+    tools:context="com.ab2018.akademikbilisim.KursDetayActivity"
+    android:padding="10dp"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <Spinner
+        android:id="@+id/spnKursDetay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/kursDetayIsım"/>
+
+    <TextView
+        android:id="@+id/tvKursDetay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:text="fewfewfewfewfewf"></TextView>
+
+</LinearLayout>
