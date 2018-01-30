@@ -6,31 +6,30 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class GirisActivity extends AppCompatActivity {
+public class AnaSayfaActivity extends AppCompatActivity {
 
+    Button btnGirisGit;
 
-
-    Button giris;
     Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_giris);
+        setContentView(R.layout.activity_ana_sayfa);
 
         intent = getIntent();
 
-        giris=findViewById(R.id.loginButtonSendId);
-        giris.setOnClickListener(new View.OnClickListener() {
+        btnGirisGit = (Button)findViewById(R.id.btnGiris_activity);
+
+        btnGirisGit.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(getApplicationContext(),ProfilOlusturActivity.class);
+            public void onClick(View v) {
+                intent = new Intent(AnaSayfaActivity.this, GirisActivity.class);
                 startActivity(intent);
+                finish();
 
             }
         });
-
-
     }
 }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ab2018.akademikbilisim.AnaSayfaActivity"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Üniversitelerde bilgi teknolojileri konusunda ilgili grupları biraraya getirerek, bilgi teknolojileri altyapısı, kullanımı, eğitimi ve üretimini tüm boyutlarıyla tanıtmak, tartışmak, tecrübeleri paylaşmak ve ortak politika oluşturmak amaçlarıyla ulusal boyutta düzenlenen Akademik Bilişim 2018 konferansının 20. si, 27 Ocak-2 Şubat 2018 tarihleri arasında üniversitemiz ev sahipliğinde yapılacaktır.
+        Ana tema ve konulara uygun akademik bildirilerin sunulacağı konferansa, ulusal boyutta, ülkemizden ve Türki Cumhuriyetlerden, akademisyenler, üniversitelerden, kamu kurumlarından ve özel sektörden, bilgi işlem merkezlerinin yöneticileri, çalışanları, eğitimcileri veya bu konularda satın alma, kiralama, lisanslama vb. hizmetleri yürüten personelleri ile bilişim konusuna ilgi duyan herkesin katılımı beklenmektedir."
+            android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/btnKursDetaylari_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00f"
+        android:text="Kurs Detayları"
+        android:textColor="#ff0"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/btnGiris_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00f"
+        android:text="Giriş Yap"
+        android:textColor="#ff0"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

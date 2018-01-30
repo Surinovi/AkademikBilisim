@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".GirisActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,13 +17,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".KursDetayActivity" />
-        <activity android:name=".GirisActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".KayitActivity" />
         <activity android:name=".SifremiUnuttumActivity" />
         <activity android:name=".ProfilOlusturActivity" />
         <activity android:name=".AnketActivity" />
         <activity android:name=".DersSecimiActivity" />
-        <activity android:name=".EgitmenActivity"></activity>
+        <activity android:name=".EgitmenActivity" />
+        <activity android:name=".AnaSayfaActivity"></activity>
     </application>
 
 </manifest>

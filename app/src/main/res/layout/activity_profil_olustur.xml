@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.ab2018.akademikbilisim.ProfilOlusturActivity">
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="merhaba"
+        />
 </android.support.constraint.ConstraintLayout>
