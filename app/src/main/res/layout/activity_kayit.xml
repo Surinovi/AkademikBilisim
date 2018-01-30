@@ -60,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Soyad" />
+                android:hint="TC" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -111,17 +111,19 @@
         </android.support.design.widget.TextInputLayout>
 
 
-        <Button
-            android:id="@+id/butonSignup"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:background="@color/colorPrimaryDark"
-            android:text="KAYIT"
-            android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/butonSignup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="KAYIT"
+        android:textColor="@android:color/white" />
 
 
-    </LinearLayout>
+</LinearLayout>
+
+
 
 
 

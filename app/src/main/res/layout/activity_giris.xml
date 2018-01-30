@@ -84,18 +84,39 @@
             android:gravity="right"
             android:text="Şifremi Unuttum." />
 
-        <Button
-            android:id="@+id/loginButtonSendId"
-            android:layout_width="180dp"
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="40dp"
-            android:background="@color/colorPrimaryDark"
-            android:text="GİRİŞ"
-            android:textColor="@android:color/white" />
+            android:paddingTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/loginButtonSendId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="GİRİŞ"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/loginButtonSignup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryDark"
+                android:text="KAYIT"
+                android:textColor="@android:color/white"></Button>
+
+
+        </LinearLayout>
+
 
     </LinearLayout>
-
 
 
 </android.support.constraint.ConstraintLayout>
