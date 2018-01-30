@@ -3,15 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/girisYap"
+        android:id="@+id/mainIletisim"
         android:orderInCategory="1"
-        android:title="Giriş Yap"
-        app:showAsAction="always" />
-
-    <item android:id="@+id/Iletisim"
-        android:title="Giriş Yap"
-        app:showAsAction="always"
-        android:orderInCategory="2"
-        />
+        android:title="İletişim"
+        app:showAsAction="ifRoom" />
 
 </menu>
