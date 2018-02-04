@@ -45,7 +45,7 @@ public class AnaSayfaActivity extends AppCompatActivity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu, menu);
+        getMenuInflater().inflate(R.menu.loginmenu, menu);
         return true;
     }
 
